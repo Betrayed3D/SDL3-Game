@@ -9,6 +9,6 @@ set(SDL3_DIR "C:/Users/Marcus/Documents/Linking/SDL3/cmake")
 
 find_package(SDL3 REQUIRED)
 
-add_executable(SDLGame "./source/main.cpp" "./source/Screen.cpp" "./source/Game.cpp")
+add_executable(SDLGame "./source/main.cpp" "./source/Screen.cpp" "./source/Game.cpp" "./source/Character.cpp")
 
 target_link_libraries(SDLGame PRIVATE SDL3::SDL3)
